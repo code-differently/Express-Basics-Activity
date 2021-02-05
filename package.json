@@ -1,0 +1,23 @@
+{
+  "name": "Express-Basics-Activity",
+  "version": "1.0.0",
+  "description": "You will be creating a server that behaves like an ATM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluhotsauce/Express-Basics-Activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bluhotsauce/Express-Basics-Activity/issues"
+  },
+  "homepage": "https://github.com/Bluhotsauce/Express-Basics-Activity#readme",
+  "dependencies": {
+  "express": "^4.17.1"
+  }
+}

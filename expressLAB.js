@@ -6,20 +6,9 @@ app.get('/', (req, res) => {
     res.send('<h1>Hello, World!</h1>');
 });
 
-//account.balance = balance;
- //   account.deposit = function (depositAmount) {
-
- //   newBalance = account.balance - depositAmount;
- //  console.log("Your balance is now " + newBalance);
-//        if (newBalance <= 0) {
- //           console.log("You have insufficient funds!!!");
- //   }   
-//};
-
 
 app.get('/balance', (req, res) => {
     res.send(8000);
-
 });
 
 app.delete('/withdraw', (req, res) => {

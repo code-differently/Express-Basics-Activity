@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    title ATM Application
+  body
+    include includes/header.pug
+    
+    label Current Balance: $#{balance}
+
+    br
+    br
+
+    form(action='/deposit', method='POST' style="display: block;")
+      label Enter deposit amount:
+      input(style="display:inline; margin: 0 10px;" type="number" name="transaction")
+      button(type="submit" id="deposit") Deposit
+      input(type="hidden" name="balance" value=balance)
+
+    br
+
+    form(action='/withdraw', method='POST' style="display: block")
+      label Enter withdrawal amount:
+      input(style="display:inline; margin: 0 10px;" type="number" name="transaction")    
+      button(type="submit" id="withdraw") Withdraw
+      input(type="hidden" name="balance" value=balance)
+
+    block content
+
+    include includes/footer.pug

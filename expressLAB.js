@@ -11,7 +11,7 @@ app.get('/balance', (req, res) => {
     res.send(8000);
 });
 
-app.delete('/withdraw', (req, res) => {
+app.get('/withdraw', (req, res) => {
     res.send('<h1>Withdraw</h1>');
 
 });

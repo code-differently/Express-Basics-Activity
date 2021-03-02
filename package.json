@@ -1,0 +1,26 @@
+{
+  "name": "Express-Basics-Activity",
+  "version": "1.0.0",
+  "description": "You will be creating a server that behaves like an ATM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcee917/Express-Basics-Activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcee917/Express-Basics-Activity/issues"
+  },
+  "homepage": "https://github.com/kcee917/Express-Basics-Activity#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
